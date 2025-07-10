@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.sample.SortingTest" time="0.459" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kpselvam/Downloads/Sorting Algorithms/target/test-classes:/Users/kpselvam/Downloads/Sorting Algorithms/target/classes:/Users/kpselvam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/kpselvam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kpselvam/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/kpselvam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kpselvam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/kpselvam/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kpselvam/Downloads/Sorting Algorithms/target/surefire/surefirebooter-20250710143617296_3.jar /Users/kpselvam/Downloads/Sorting Algorithms/target/surefire 2025-07-10T14-36-17_220-jvmRun1 surefire-20250710143617296_1tmp surefire_0-20250710143617296_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kpselvam/Downloads/Sorting Algorithms/target/test-classes:/Users/kpselvam/Downloads/Sorting Algorithms/target/classes:/Users/kpselvam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/kpselvam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kpselvam/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/kpselvam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kpselvam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/kpselvam/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kpselvam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kpselvam/Downloads/Sorting Algorithms"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/kpselvam/Downloads/Sorting Algorithms/target/surefire/surefirebooter-20250710143617296_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1"/>
+    <property name="user.name" value="kpselvam"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/kpselvam/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qw/d1cxld0n6rqd_326t3d9v9gw0000gr/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/kpselvam/Downloads/Sorting Algorithms"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kpselvam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testLargeArrayPerformance" classname="org.sample.SortingTest" time="0.148">
+    <system-out><![CDATA[Large Array (10,000 elements):
+Bubble Sort Time: 64 ms
+Selection Sort Time: 38 ms
+Insertion Sort Time: 20 ms
+Merge Sort Time: 2 ms
+Quick Sort Time: 1 ms
+
+]]></system-out>
+  </testcase>
+  <testcase name="testReverseSortedArrayPerformance" classname="org.sample.SortingTest" time="0.186">
+    <system-out><![CDATA[Reverse Sorted Array (10,000 elements):
+Reverse Sorted Array (10,000 elements):
+Bubble Sort Time: 90 ms
+Selection Sort Time: 38 ms
+Insertion Sort Time: 33 ms
+Merge Sort Time: 0 ms
+Quick Sort Time: 21 ms
+
+]]></system-out>
+  </testcase>
+  <testcase name="testVeryLargeArrayPerformance" classname="org.sample.SortingTest" time="0.022">
+    <system-out><![CDATA[Very Large Array (100,000 elements):
+Bubble Sort: Skipped (would take too long)
+Selection Sort: Skipped (would take too long)
+Insertion Sort: Skipped (would take too long)
+Merge Sort Time: 11 ms
+Quick Sort Time: 5 ms
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSortingCorrectness" classname="org.sample.SortingTest" time="0.007"/>
+  <testcase name="testSmallArrayPerformance" classname="org.sample.SortingTest" time="0.005">
+    <system-out><![CDATA[Small Array (100 elements):
+Bubble Sort Time: 0 ms
+Selection Sort Time: 0 ms
+Insertion Sort Time: 0 ms
+Merge Sort Time: 0 ms
+Quick Sort Time: 0 ms
+
+]]></system-out>
+  </testcase>
+  <testcase name="testMediumArrayPerformance" classname="org.sample.SortingTest" time="0.006">
+    <system-out><![CDATA[Medium Array (1,000 elements):
+Bubble Sort Time: 0 ms
+Selection Sort Time: 1 ms
+Insertion Sort Time: 0 ms
+Merge Sort Time: 0 ms
+Quick Sort Time: 0 ms
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSortedArrayPerformance" classname="org.sample.SortingTest" time="0.07">
+    <system-out><![CDATA[Already Sorted Array (10,000 elements):
+Bubble Sort Time: 0 ms
+Selection Sort Time: 36 ms
+Insertion Sort Time: 0 ms
+Merge Sort Time: 0 ms
+Quick Sort Time: 28 ms
+
+]]></system-out>
+  </testcase>
+</testsuite>
