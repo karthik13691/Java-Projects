@@ -10,6 +10,7 @@
 1. <a href = "https://github.com/karthik13691/Java-Projects/tree/main/Sorting%20Algorithms">Basic Sorting Algorithms</a>
 2. <a href = "https://github.com/karthik13691/Java-Projects/tree/main/Student%20Exam%20Manager%20application">Student Exam Manager App</a>
 3. <a href = "https://github.com/karthik13691/Java-Projects/tree/main/Java%20Audio%20Player">Java Audio Player App</a>
+4. <a href = "https://github.com/karthik13691/Java-Projects/tree/main/Alarm%20Clock">Alarm Clock</a>
 
 
 ### Advanced
